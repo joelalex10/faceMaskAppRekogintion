@@ -1,2 +1,3 @@
-CON MASCARILLA
-SIN MASCARILLA
+0 Sin Barbijo
+1 Con Barbijo
+2 Con y sin barbijo

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "854584722901",
+    "project_id": "facemask-4a637",
+    "storage_bucket": "facemask-4a637.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:854584722901:android:72e9243ef7cbcf37e5e95c",
+        "android_client_info": {
+          "package_name": "com.example.AppRekognitionFaceMask"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "854584722901-ff5e8saba7rv9vujfhtvpuv8jdcgt9hi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRHDIBVoIN3xu4-YmSR2G0XIZ1NLbGpLw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "854584722901-ff5e8saba7rv9vujfhtvpuv8jdcgt9hi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
