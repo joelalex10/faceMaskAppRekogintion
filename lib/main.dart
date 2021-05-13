@@ -1,3 +1,4 @@
+import 'package:AppRekognitionFaceMask/LoginPage.dart';
 import 'package:AppRekognitionFaceMask/SplashScreenPage.dart';
 import 'package:AppRekognitionFaceMask/HomePage.dart';
 import 'package:flutter/material.dart';
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Detector de Mascarillas',
-      home: HomePage(),
+      home: LoginPage(),
       debugShowCheckedModeBanner: false,
     );
   }
