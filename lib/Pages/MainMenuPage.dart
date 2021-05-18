@@ -1,6 +1,8 @@
 import 'package:AppRekognitionFaceMask/Pages/HomePage.dart';
 import 'package:AppRekognitionFaceMask/Pages/LoginPage.dart';
+import 'package:AppRekognitionFaceMask/Pages/ReportPage.dart';
 import 'package:AppRekognitionFaceMask/Pages/SplashScreenPage.dart';
+import 'package:audioplayers/audio_cache.dart';
 import 'package:flutter/material.dart';
 
 
@@ -42,7 +44,7 @@ class _MainMenuPage extends State<MainMenuPage>{
           children: <Widget>[
             cardoption('Monitorizacion',Icons.add_chart, HomePage(), context),
 
-            cardoption('Ver Reportes',Icons.article, SplashScreenPage(), context),
+            cardoption('Ver Reportes',Icons.article, ReportPage(), context),
             cardoption('Cerrar Sesion',Icons.logout, LoginPage(), context)
           ],
 
@@ -56,6 +58,8 @@ class _MainMenuPage extends State<MainMenuPage>{
       margin: EdgeInsets.all(6.0),
       child: InkWell(
         onTap: (){
+
+
           if(statefulWidget.toString() == LoginPage().toString()){
             showDialog(
                 context: context,

@@ -30,4 +30,9 @@ class User{
   set name(String value) {
     _name = value;
   }
+
+  @override
+  String toString() {
+    return 'User{_name: $_name, _lastName: $_lastName, _email: $_email, _password: $_password}';
+  }
 }

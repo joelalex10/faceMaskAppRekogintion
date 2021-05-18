@@ -1,3 +1,4 @@
+import 'package:AppRekognitionFaceMask/Pages/HomePage.dart';
 import 'package:AppRekognitionFaceMask/Pages/MainMenuPage.dart';
 import 'package:flutter/material.dart';
 import 'package:splashscreen/splashscreen.dart';

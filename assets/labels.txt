@@ -1,0 +1,4 @@
+0 Sin Barbijo
+1 Con Barbijo
+2 Con y Sin Barbijo
+3 Enfocar a la Persona
